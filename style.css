@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-    width: 380px;
-    margin: 70px auto;
+    width: 400px;
+    margin: 60px auto;
     background: white;
     padding: 25px;
     border-radius: 10px;
@@ -24,7 +24,9 @@ label {
     font-weight: bold;
 }
 
-input {
+input[type="text"],
+input[type="password"],
+input[type="number"] {
     width: 100%;
     padding: 9px;
     margin-top: 5px;
@@ -46,13 +48,27 @@ small {
     visibility: hidden;
 }
 
-button {
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-    background: #667eea;
+.checkbox-field {
+    margin-top: 15px;
+}
+}
     color: white;
+}
+
+button:disabled {
+    background: #aaa;
+}
     border: none;
     border-radius: 5px;
     font-size: 16px;
-}
+
+    padding: 10px;
+    background: #667eea;
+button {
+    width: 100%;
+    margin-top: 20px;
+#termsError {
+    color: #e53935;
+    visibility: hidden;
+
+  
